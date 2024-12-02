@@ -1,0 +1,283 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.header-content .logo img {
+    width: 40px;
+    height: auto;
+}
+.img1{
+    height: 32px;
+    padding-left: 24px;
+}
+
+.header-content .logo h1 {
+    font-size: 24px;
+    color: #444;
+    font-weight: lighter;
+}
+
+header nav {
+    background-color: white;  
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;  
+    font-size: 18px;
+    padding: 10px 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-top: 32px;
+    background-color: #f0f0f0;
+    flex-wrap: wrap;
+}
+.hero-img img {
+    width: 60%;
+    max-width: 100%;
+}
+.hero-text {
+    width: 40%;
+    position: absolute;
+    margin-left: 55%;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin: 0;
+    margin-top:100px;
+}
+
+.hero-text h2 {
+    margin: 24px 0;
+}
+
+.start-btn {
+    height: 90px;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%; /* Two-column layout */
+    gap: 24px;
+    padding: 32px;
+}
+  
+.main {
+    padding: 24px;
+}
+  
+.main img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+  
+.main h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+  
+.main p {
+    margin-bottom: 16px;
+}
+  
+.sidebar {
+    display: grid;
+    gap: 24px;
+}
+  
+.item {
+    display: grid;
+    grid-template-columns: 35% 65%; 
+    gap: 16px;
+    align-items: center;
+}
+ 
+.item3{
+    background-color: #f9f9f9;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+  
+.item h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+  
+.item p {
+    margin: 0 0 8px;
+    font-size: 14px;
+}
+  
+.item a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.course {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course img {
+    width: 100%;
+}
+
+.container1 {
+    padding: 24px 32px;
+}
+  
+.container1 header {
+    margin-bottom: 32px;
+}
+  
+.container header h1 {
+    font-size: 32px;
+    margin: 0;
+    align-items: center;
+}
+  
+.main-content {
+    display: grid;
+    grid-template-columns: 60% 40%; /* Main content and sidebar */
+    gap: 24px;
+}
+  
+.video-section {
+    background-color: #f9f9f9;
+    padding: 24px;
+    border-radius: 8px;
+}
+  
+.video-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    position: relative;
+}
+  
+.video-placeholder button {
+    font-size: 48px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+  
+.video-section h2 {
+    font-size: 24px;
+    margin: 16px 0;
+}
+  
+.video-section p {
+    margin: 8px 0;
+}
+  
+.video-section p:last-of-type {
+    margin-top: 32px;
+    font-size: 14px;
+    color: #aaa;
+}
+  
+.sidebar1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+  
+.sidebar-item {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+  
+.sidebar-item img {
+    width: 35%;
+    border-radius: 8px;
+}
+  
+.sidebar-item h3 {
+    font-size: 18px;
+    margin: 0 0 8px;
+}
+  
+.sidebar-item p {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
